@@ -105,6 +105,8 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- Related Projects -->
 ## Related Project
+:rocket: [`Tikitoko (Frontend)`](https://github.com/brndnwjy/tikitoko-app)
+
 :rocket: [`Tikitoko (Backend)`](https://github.com/brndnwjy/tikitoko-api)
 
 :rocket: [`Tikitoko App Demo`](https://tikitoko.netlify.app)

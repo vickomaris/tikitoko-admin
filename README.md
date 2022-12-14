@@ -102,7 +102,6 @@ Contributions are what make the open source community such an amazing place to b
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- Screenshoots -->
-## Screenshoots
 
 <!-- Related Projects -->
 ## Related Project

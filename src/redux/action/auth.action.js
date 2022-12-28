@@ -5,7 +5,7 @@ export const login = (dataForm, navigate) => async (dispatch) => {
   try {
     dispatch({ type: "LOGIN_PENDING" });
     const result = await axios.post(
-      `${process.env.REACT_APP_API_BACKEND}/auth/login`,
+      `tikitoko.up.railway.app/v1/auth/login`,
       dataForm
     );
 

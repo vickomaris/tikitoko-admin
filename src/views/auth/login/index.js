@@ -68,7 +68,7 @@ const Login = () => {
                         />
                         <button
                           type="submit"
-                          className="btn btn-primary btn-user btn-block"
+                          className="btn btn-danger btn-user btn-block"
                         >
                           Login
                         </button>

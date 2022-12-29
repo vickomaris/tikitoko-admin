@@ -1,10 +1,8 @@
 import React, { useEffect } from "react";
-import swal from "sweetalert";
 import {
   BrowserRouter,
   Routes,
   Route,
-  Navigate,
   useLocation,
 } from "react-router-dom";
 
@@ -33,18 +31,18 @@ const ScrollToTop = ({ children }) => {
   return children;
 };
 
-const Auth = ({ children }) => {
-  const token = localStorage.getItem("token");
-  if (!token) {
-    swal({
-      title: "Denied!",
-      text: `Access Denied, Please Login!`,
-      icon: "error",
-    });
-    return <Navigate to="/login" replace />;
-  }
-  return children;
-};
+// const Auth = ({ children }) => {
+//   const token = localStorage.getItem("token");
+//   if (!token) {
+//     swal({
+//       title: "Denied!",
+//       text: `Access Denied, Please Login!`,
+//       icon: "error",
+//     });
+//     return <Navigate to="/login" replace />;
+//   }
+//   return children;
+// };
 
 const Router = () => {
   return (

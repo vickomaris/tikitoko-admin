@@ -102,6 +102,45 @@ Contributions are what make the open source community such an amazing place to b
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- Screenshoots -->
+##Screenshoots
+
+<table>
+  <tr>
+    <td><image src="./documentation/login.png" alt="Login" width=100%></td>
+    <td><image src="./documentation/home.png" alt="Homepage" width=100%></td>
+  </tr>
+  <tr>
+      <td align="center">Login</td>
+       <td align="center">Homepage</td>
+  </tr>
+
+  <tr>
+    <td><image src="./documentation/buyer-list.png" alt="Buyer - List" width=100%></td>
+    <td><image src="./documentation/buyer-detail.png" alt="Buyer - Detail" width=100%></td>
+  </tr>
+  <tr>
+      <td align="center">Buyer - List</td>
+       <td align="center">Buyer - Detail</td>
+  </tr>
+
+  <tr>
+    <td><image src="./documentation/seller-list.png" alt="Seller - List" width=100%></td>
+    <td><image src="./documentation/seller-detail.png" alt="Seller - Detail" width=100%></td>
+  </tr>
+  <tr>
+      <td align="center">Seller - List</td>
+       <td align="center">Seller - Detail</td>
+  </tr>
+
+  <tr>
+    <td><image src="./documentation/product-list.png" alt="Product - List" width=100%></td>
+    <td><image src="./documentation/product-detail.png" alt="Product - Detail" width=100%></td>
+  </tr>
+  <tr>
+      <td align="center">Product - List</td>
+       <td align="center">Product - Detail</td>
+  </tr>
+</table>
 
 <!-- Related Projects -->
 ## Related Project

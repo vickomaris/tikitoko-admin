@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import Sidebar from "../../../components/module/sidebar";

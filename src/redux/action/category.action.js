@@ -5,7 +5,7 @@ export const getCategory = () => async (dispatch) => {
   try {
     dispatch({ type: "GET_CATEGORY_PENDING" });
     const result = await axios.get(
-      `${process.env.REACT_APP_API_BACKEND}/category`
+      `https://tikitoko.up.railway.app/v1/category`
     );
 
     console.log(result.data.data);
@@ -23,7 +23,7 @@ export const getCategoryDetail = (id) => async (dispatch) => {
     dispatch({ type: "GET_CATEGORY_DETAIL_PENDING" });
 
     const result = await axios.get(
-      `${process.env.REACT_APP_API_BACKEND}/category/${id}`
+      `https://tikitoko.up.railway.app/v1/category/${id}`
     );
 
     console.log(result.data.data);
@@ -41,7 +41,7 @@ export const addCategory = (data, navigate) => async (dispatch) => {
     dispatch({ type: "ADD_CATEGORY_PENDING" });
 
     const result = await axios.post(
-      `${process.env.REACT_APP_API_BACKEND}/category`,
+      `https://tikitoko.up.railway.app/v1/category`,
       data
     );
 
@@ -64,7 +64,7 @@ export const updatecategory = (id, data, navigate) => async (dispatch) => {
     dispatch({ type: "UPDATE_CATEGORY_PENDING" });
 
     const result = await axios.put(
-      `${process.env.REACT_APP_API_BACKEND}/category/${id}`,
+      `https://tikitoko.up.railway.app/v1/category/${id}`,
       data
     );
 

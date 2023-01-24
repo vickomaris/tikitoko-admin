@@ -3,7 +3,7 @@ import axios from "axios";
 export const getBuyer = () => async (dispatch) => {
   try {
     dispatch({ type: "GET_BUYER_PENDING" });
-    const result = await axios.get(`${process.env.REACT_APP_API_BACKEND}/buyer`);
+    const result = await axios.get(`https://tikitoko.up.railway.app/v1/buyer`);
 
     console.log(result.data.data);
     const buyer = result.data.data;
@@ -20,7 +20,7 @@ export const getBuyerDetail = (id) => async (dispatch) => {
     dispatch({ type: "GET_BUYER_DETAIL_PENDING" });
 
     const result = await axios.get(
-      `${process.env.REACT_APP_API_BACKEND}/buyer/${id}`
+      `https://tikitoko.up.railway.app/v1/buyer/${id}`
     );
 
     console.log(result.data.data);

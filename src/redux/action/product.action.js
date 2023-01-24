@@ -5,7 +5,7 @@ export const getProduct = () => async (dispatch) => {
   try {
     dispatch({ type: "GET_PRODUCT_PENDING" });
     const result = await axios.get(
-      `${process.env.REACT_APP_API_BACKEND}/product`
+      `https://tikitoko.up.railway.app/v1/product`
     );
 
     console.log(result.data.data);
@@ -23,7 +23,7 @@ export const getProductDetail = (id) => async (dispatch) => {
     dispatch({ type: "GET_PRODUCT_DETAIL_PENDING" });
 
     const result = await axios.get(
-      `${process.env.REACT_APP_API_BACKEND}/product/${id}`
+      `https://tikitoko.up.railway.app/v1/product/${id}`
     );
 
     console.log(result.data.data);
@@ -49,7 +49,7 @@ export const removeProduct = (id, navigate) => async (dispatch) => {
     }).then(async (confirm) => {
       if (confirm) {
         await axios.delete(
-          `${process.env.REACT_APP_API_BACKEND}/product/${id}`
+          `https://tikitoko.up.railway.app/v1/product/${id}`
         );
 
         swal({

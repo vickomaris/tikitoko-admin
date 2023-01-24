@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { login } from "../../../redux/action/auth.action";
 import styles from "./login.module.css";
-import banner from "../../../assets/banner.png";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -68,7 +67,7 @@ const Login = () => {
                         />
                         <button
                           type="submit"
-                          className="btn btn-primary btn-user btn-block"
+                          className="btn btn-danger btn-user btn-block"
                         >
                           Login
                         </button>

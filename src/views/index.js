@@ -37,7 +37,7 @@ const Home = () => {
               <Navi />
 
               <div className="container d-flex justify-content-center align-items-center h-75">
-                <p style={{ fontSize: "80px" }}>#Re:Vision</p>
+                <p style={{ fontSize: "80px" }}>#Tikitoko</p>
               </div>
             </div>
             <Footer />
